@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label":          "metaL: all",
+            "type":           "shell",
+            "command":        "make all",
+            "problemMatcher": []
+        },
+        {
+            "label":          "metaL: web",
+            "type":           "shell",
+            "command":        "make web",
+            "problemMatcher": []
+        },
+        {
+            "label":          "metaL: repl",
+            "type":           "shell",
+            "command":        "make repl",
+            "problemMatcher": []
+        },
+        {
+            "label":          "metaL: test",
+            "type":           "shell",
+            "command":        "make test",
+            "problemMatcher": []
+        },
+        {
+            "label":          "python: pep",
+            "type":           "shell",
+            "command":        "make pep",
+            "problemMatcher": []
+        },
+        {
+            "label":          "make: install",
+            "type":           "shell",
+            "command":        "make install",
+            "problemMatcher": []
+        },
+        {
+            "label":          "make: update",
+            "type":           "shell",
+            "command":        "make update",
+            "problemMatcher": []
+        },
+    ]
+}
